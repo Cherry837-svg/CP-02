@@ -113,7 +113,7 @@
             const clockEl = document.getElementById('clock');
             const batteryEl = document.getElementById('battery');
 
-            batteryEl.textContent = `AKK=: ${Math.round(percent)}%`;
+            batteryEl.textContent = `${Math.round(percent)}%`;
 
             const hue = batteryLevel * 270;
             let lightness = 50;
